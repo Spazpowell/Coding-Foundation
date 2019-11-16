@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Cap-Stone-Project</title>
+    <link href="https://fonts.googleapis.com/css?family=Indie+Flower&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/99f5182a7e.js" crossorigin="anonymous"></script>
+    <link rel= "stylesheet" href= "projects.css">
+</head>
+<body>
+    <div class="header-wrapper">
+        <div class="leftside">
+            <a href= '#' class= 'toggle' id= 'navHam'>
+                <i class="fas fa-chevron-down"></i>            
+            </a>
+            <h1>Gerbil</h1>
+            
+            <div class="img1">
+                <img src= "images/runaway router.png" alt= "gerbil">
+            </div>
+            <div class="link">
+                <a href= "Posts.html">Posts</a>
+            </div>
+            <div class="link">
+                <a href= "Pens.html">Pens<i class="fab fa-wizards-of-the-coast"></i></a>
+                
+            </div>
+            <div></div>
+        </div>
+        <div class="rightside">
+            <div class="link">
+                <a href="Cookies.html"><i class="fas fa-cookie-bite"></i></a>
+                <a href= "Homepage.html">Go Home</a>
+            </div>
+        </div>
+    </div>
+    <div class="area-one">
+        <div class="top-area">
+            <h1>A little bit of something</h1>
+            <p>Things <i class="fab fa-d-and-d"></i> Stuff</p>
+        </div>
+    </div>
+</body>
+
+<script>
+    const navHam = document.querySelector('#navHam');
+    navHam.addEventListener('click', (e) => {
+        navHam.parentElement.classList.toggle('active');
+})
+</script>
+
+</html>

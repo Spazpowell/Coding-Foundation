@@ -1,0 +1,89 @@
+.WholeHeader {
+    height: 230px;
+    background-color: #2f0241;
+    color:#98a301;
+    display:flex;
+    justify-content: space-between;
+    Align-items: center;
+    margin: 0px;
+}
+    
+.Left-hand-information {
+    display:grid;
+    align-items: initial;
+    width: 300px;
+    grid-template-columns: 1fr;
+    margin:0;
+
+}
+.Deckard {
+    display: flex;
+    Align-items: top;
+}
+.Deckard img{
+    Width: 200px;
+    height: 100%;    
+}
+.rhyme {
+    font: 400 100px/1.3 'Lobster Two', Helvetica, sans-serif;
+    text-shadow: 1px 1px 0px #ededed, 4px 4px 0px rgba(0,0,0,0.15);
+    display: flex;
+    align-items: flex-start;
+    font-size: 20px;
+}
+
+.CenterInformation {
+    display: flex;
+    grid-template-columns: 1fr;
+    align-items: center;
+    justify-content: left
+}
+.CenterInformation > .Monsta {
+    display:flex;
+    justify-content: left;
+    box-shadow: inset 4px 3px 106px -1px rgba(231,166,26,1);
+
+}
+    .CenterInformation > .Monsta img {
+        width: 100%;
+        height: 200px;
+        
+
+}
+
+
+.links {
+    display: flex;
+    align-items: center;
+}
+
+
+.Rightinformation {
+    display:grid;
+    grid-template-columns: 1fr;
+}
+
+
+
+
+.background > .CookieBackground {
+    Height: 1000px;
+    width: 100%;
+    display: flex;
+    background-image: url(images/CookieBackground.jpeg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    justify-content: center;
+    align-items: center;
+    background-size: 100%;
+    margin: -10px;
+    Position: bottom;
+}
+
+.body2 {
+    display: flex;
+    height: 5px;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between
+}
