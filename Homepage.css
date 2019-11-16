@@ -1,0 +1,265 @@
+body {
+    margin: 0px;
+}
+
+.header {
+    background-color: black;
+    color: white;
+    display: grid;
+    grid-template-columns: .6fr 1.9fr 1.5fr;
+    Height: 100px;
+}
+
+.header > .header-img {
+    display: flex;
+    align-items: column;
+    padding-left: 20px;
+    padding-bottom: 15px;
+    margin-top: -10px;
+}
+
+.header > .header-img img{
+    height: 100px;
+    filter: invert(1);
+}
+
+.header h1{
+    color: rgb(255, 230, 117);
+}
+
+.header a{
+    text-decoration: none;
+    color: white;
+}
+
+
+.header > .linkswrapper {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    margin-right: 50px;
+}
+
+.header > .linkswrapper h1{
+    font-size: 20px;
+    padding-top: 10px;
+}    
+
+.header > .linkswrapper > .links {
+    Display: grid;
+    grid-template-columns: .1fr .2fr .2fr .1fr 1fr;
+    font-weight: 800;
+    font-family: Arial Black,Arial Bold,Gadget,sans-serif; 
+}
+
+.header > .link a{
+    color: white;
+    border: none;
+    font-size: 1.3em;
+}
+
+.dropbtn {
+    background-color: black;
+    border: none;
+    color: grey;
+    font-family: Arial Black,Arial Bold,Gadget,sans-serif;
+    font-weight: bold;
+    padding-left: 30px;
+}
+
+.dropbtn i{
+    padding-left: 10px;
+}
+
+.posts {
+    padding-left: 15px;
+}
+
+.projects {
+    padding-left: 15px;
+}
+
+
+
+
+.header > .login-signup {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 100%;
+    padding-bottom: 15px;
+}
+
+.dropbtn1 {
+    border: none;
+    background-color: #464a50;
+    padding: 16px 18px;
+    border-radius: 5px;
+}
+
+.dropbox1 button{    
+    padding-left: 20px;
+    color: white;
+}
+
+.dropbox1 button i{
+    font-size: 130%;
+    color: rgb(69, 212, 129);
+}
+
+.login-signup i{
+    font-weight: bold;
+    font-size: 200%;
+    color: #6a6d72;
+    margin: 0px 15px;
+}
+
+.logIn {
+    background-color: #464a50;
+    padding: 16px 32px;
+    border-radius: 5px;
+    margin-right: 10px;
+    font-weight: bold;
+}
+
+.signUp {
+    padding: 16px 32px;
+    background-color: #464a50;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+
+
+
+
+.middle {
+    background-image: linear-gradient(to right, #353940, #0a0b0d);
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: 750px;
+    border: none;
+    font-family: Calibri,Candara,Segoe,Segoe UI,Optima,Arial,sans-serif; 
+    height: 600px;
+    color: rgb(185, 178, 178);
+}
+
+.middle > .leftside {
+    display: grid;
+    grid-template-rows: .3fr 0.4fr 0.2fr 0.1fr;
+    align-items: center;
+    justify-content: center;
+    padding-left: 40px;
+}
+
+
+
+.middle > .leftside p{
+    padding-top: 10px;
+    justify-content: center;
+    font-size: 3em;
+    font-weight: lighter;
+}
+
+.middle > .leftside strong{
+    color: white;
+}
+
+.middle > .leftside i{
+    color: goldenrod;
+}    
+
+.middle > .leftside p1{
+    font-size: 2.3em;
+
+}
+
+.middle > .leftside > .twobuttons {
+    display: flex;
+    padding-top: 40px;
+}
+
+.middle > .leftside > .twobuttons a{
+    font-size: 2em;
+    color: goldenrod;
+    border: none;
+}
+
+.twobuttons > .signUp {
+    font-size: 30px;
+    font-weight: bolder;
+    padding: 20px 30px;
+    border: none;
+    background-color:  rgb(77, 214, 134);
+    margin-right: 20px;
+    border-radius: 5px;
+}
+
+.menu {
+    border: none;
+    font-size: 40px;
+    background-color: black;
+    color: white;
+    padding: 15px 35px;
+    border-radius: 5px;
+}
+
+
+
+
+.middle > .rightside {
+    padding-top: 40px;
+    padding-left: 50px;
+    height: 500px;
+}
+
+.middle > .rightside h1{
+    font-size: 1.4em;
+    color: white;
+    padding-top: 10px;
+}
+
+.middle > .rightside span{
+    color: lightskyblue;
+}
+
+.middle > .rightside img{
+    object-fit: contain;
+    height: 100%;
+}
+
+
+
+
+.footer {
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    border: none;
+    margin-top: -4px;
+    height:  60px;
+}
+
+.footer a{
+    color: white;
+    font-size: 1.5em;
+    background: #353940;
+    text-decoration: none;
+}
+
+.footer-item {
+    border: 1px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.footer span{
+    padding-left: 5px;
+    font-weight: 900;
+}
+
+.spacer {
+    height: 100px;
+    background-color: #1a1a1b;
+}
